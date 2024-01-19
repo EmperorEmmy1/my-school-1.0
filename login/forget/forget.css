@@ -1,0 +1,106 @@
+body{
+    background-color: #DEDEDE;
+    height: 1200px;
+    
+}
+#logo{
+/* LOGO */
+
+position: absolute;
+width: 93px;
+height: 48px;
+left: 75px;
+top: 32px;
+
+font-family: 'Jomolhari';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 48px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+#aa{
+/* Already have an account */
+
+position: absolute;
+width: 241px;
+height: 26px;
+left: 1200px;
+top: 42px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+}
+
+#box{
+/* Rectangle 47 */
+
+position: absolute;
+width: 1087px;
+height: 700px;
+left: 190px;
+top: 282px;
+
+background: #C7D7E5;
+font-family: 'Jomolhari';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 48px;
+
+}
+
+#ca{
+/* forget password */
+
+position: relative;
+width: 285px;
+height: 48px;
+align-items: center;
+left: 500px;
+top: 35px;
+color: #000000;
+
+}
+
+.linebox{
+
+    width: 689px;
+    height: 70px;    
+    color: #AC9999;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    position: relative;
+    left: 250px;
+    top: 50px;
+}
+    
+#ln{
+background: #7AB8F1;
+color: #000000;
+font-family: 'Jomolhari';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 48px;
+
+}

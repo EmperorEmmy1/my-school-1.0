@@ -1,0 +1,867 @@
+body{
+    background-color: #DEDEDE;
+    font-family: 'montserrat';
+    text-align: justify;
+    
+    
+}
+.landing-page{  position: relative;
+
+}
+/* LOGO */
+#logo{ 
+        left: 20px;
+       margin: 5px ;
+       font-style: normal;
+        font-weight: 100;
+        font-size: 10px;
+        line-height: 15px;
+        color: #000000;
+        position: relative;
+      
+
+
+}
+#about{
+        margin: 5px ;
+        font-size: 10px;
+}
+.lovo{ 
+         float: left;
+         margin: 5px ;
+         
+        font-style: normal;
+        font-weight: 20;
+        font-size: 10px;
+        line-height: 15px;
+        color: #000000;
+
+}
+
+ /* button */
+.button{
+  
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 7px 5px;
+gap: 7px;
+position: absolute;
+text-decoration: none;
+
+left: 270px;
+top: 5px;
+background: #4578A8;
+border-radius: 3px;
+
+
+/* Menu Item */
+
+width: 40px;
+height: 5px;
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 25px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+   
+    
+
+}
+
+.buttonb{
+       /* button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+padding: 7px 5px;
+gap: 15px;
+text-decoration: none;
+position: absolute;
+
+left: 330px;
+top: 5px;
+
+background: #4578A8;
+border-radius: 3px;
+
+
+/* Menu Item */
+
+width: 25px;
+height: 5px;
+
+font-family: 'Jomolhari';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 25px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+#made{
+/* School made easy for everyone. */
+
+position: absolute;
+width: 340px;
+height: 80px;
+left: 30px;
+top: 30px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 94.66%;
+/* or 95px */
+letter-spacing: -0.045em;
+
+color: #000000;
+}
+#un{
+        /* Public-Universities-in-Nigeria 1 */
+
+position: absolute;
+width: 350px;
+height: 225px;
+left: 20px;
+top: 170px;
+border-radius: 5PX;
+
+background: url(Public-Universities-in-Nigeria.jpg);
+
+}
+#untext{/* Are you a student looking to conquer the challenges of academic life with ease and confidence? Look no further Emmy Campus Connect - is the one-stop solution to all your educational needs! */
+
+        position: absolute;
+        width: 355px;
+        height: 102px;
+        left: 20px;
+        top: 390px;
+        
+        font-family: 'Jomolhari';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        
+        color: #000000;
+        
+        }
+#bnt{/* button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+
+padding: 7px 15px;
+gap: 5px;
+position: absolute;
+left: 20px;
+top: 550px;
+
+background: #4578A8;
+border-radius: 5px;
+
+
+/* Menu Item */
+
+width: 82px;
+height: 30px;
+
+font-family: 'Jomolhari';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 15px;
+display: flex;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#bnt2{/* button */
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 7px 15px;
+        gap: 5px;
+        position: absolute;
+        left: 290px;
+        top: 550px;
+        background: #4578A8;
+        border-radius: 5px;     
+        
+        /* Menu Item */
+        
+       
+        
+        width: 75px;
+        height: 30px;
+        font-family: 'Jomolhari';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 15px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        text-align: center;      
+        color: #FFFFFF;
+        
+        
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        }
+
+#bed{/* 196185302 1 */
+
+        position: absolute;
+        width: 350px;
+        height: 225px;
+        left: 20px;
+        border-radius: 5PX;
+        top: 620px;
+        background: url(196185302);
+        }
+#bedtext{/* Say goodbye to the hassles of manual paperwork and long queues. With Emmy Campus Connect, you can register for courses, validate your registration number, and even book a cozy bed space in your university's accommodation facilities from the comfort of your dorm room! Our app ensures a seamless academic journey, allowing you to focus on what truly matters - your studies and personal growth. */
+
+     
+        position: absolute;
+        width: 355px;
+        height: 102px;
+        left: 20px;
+        top: 840px;
+        font-family: 'Jomolhari';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        color: #000000;
+   
+        
+        }
+#bedbnt{/* button */
+
+       /* Auto layout */
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       padding: 10px 15px;
+       gap: 5px;
+       position: absolute;
+       left: 296px;
+       top: 1125px;
+       background: #4578A8;
+       border-radius: 5px;     
+       
+       /* Menu Item */
+       
+      
+       
+       width: 85px;
+       height: 30px;
+       font-family: 'Jomolhari';
+       font-style: normal;
+       font-weight: 200;
+       font-size: 15px;
+       line-height: 12px;
+       display: flex;
+       align-items: center;
+       text-align: center;      
+       color: #FFFFFF;
+       
+       
+       /* Inside auto layout */
+       flex: none;
+       order: 0;
+       flex-grow: 0;
+       }  
+    
+  
+#post{/* Preparing for the dreaded Post UTME exams can be nerve-wracking, but fret not! CampusConnect offers a comprehensive range of study materials, practice tests, and educational resources, carefully curated to help you excel in your exams. Boost your confidence and conquer those exams like a pro! */
+
+        position: absolute;
+        width: 355px;
+        height: 102px;
+        left: 20px;
+        top: 1420px;
+        
+        font-family: 'Jomolhari';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        
+        color: #000000;
+        
+        }
+#postbnt{/* button */
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 15px 15px;
+        gap: 15px;
+        position: absolute;
+        width: 85px;
+        height: 30px;
+        background: #4578A8;
+        border-radius: 5px;
+        left: 20px;
+        top: 1650px;
+        
+                
+        
+        /* Menu Item */
+        
+        font-family: 'Jomolhari';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 15px;
+        line-height: 12px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #FFFFFF;
+        
+        
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        
+        }
+
+#postimg{/* download 1 */
+
+        position: absolute;
+        width: 350px;
+        height: 225px;
+        left: 20px;
+        top: 1200px;
+        
+        background: url(download.jpg);
+        }
+#utme{/* Pass-JAMB-Ads 1 */
+
+        position: absolute;
+        width: 350px;
+        height: 225px;
+        left: 20px;
+        top: 1740px;
+        border-radius: 6px;
+        background: url(Pass-JAMB-Ads.png);
+        }
+#utmetxt{
+        /* Preparing for the dreaded Post UTME exams can be nerve-wracking, but fret not! CampusConnect offers a comprehensive range of study materials, practice tests, and educational resources, carefully curated to help you excel in your exams. Boost your confidence and conquer those exams like a pro! */
+
+        position: absolute;
+        width: 355px;
+        height: 102px;
+        left: 20px;
+        top: 1950px;
+
+        font-family: 'Jomolhari';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+
+        color: #000000;
+
+}
+#p{/* Our partners */
+
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        left: 120px;
+        top: 2245px;  
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 20px;
+        /* identical to box height */
+        
+        color: #000000;
+        
+        }
+#utmebnt{/* button */
+
+                /* Auto layout */
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 15px 15px;
+                gap: 15px;
+                position: absolute;
+                width: 85px;
+                height: 30px; 
+                background: #4578A8;
+                border-radius: 5px;
+                left: 290px;
+                top: 2180px;
+                
+                        
+                
+                /* Menu Item */
+                
+                font-family: 'Jomolhari';
+                font-style: normal;
+                font-weight: 200;
+                font-size: 15px;
+                line-height: 12px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                
+                color: #FFFFFF;
+                
+                
+                /* Inside auto layout */
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                
+                }
+                .img{
+                        position: absolute;
+                        top: 2350px;   
+                        width: 60px;      
+                        height: 60px;
+                        border-radius: 5px;
+                }
+                #img1{
+                        /* 220px-UniLagos 1 */
+                        left: 20px;
+                        background: url(220px-UniLagos.jpg);
+        
+                }
+                #img2{/* download 2 */
+                        left: 100px;      
+                        background: url(download1.png);
+                        }
+                #img3{ /* download 2 */
+                        left: 170px;
+                        background: url(download2.jpg);
+                        }
+                #img4{/* download (1) 1 */
+                        left: 240px;
+                        background: url(iSPS_colorlogo_350.webp);
+                        
+                        }
+                #img5{/* images 1 */
+                        left: 310px;
+                        background: url(images.png);
+                        }
+        #us{/* Why you should register with us */
+
+                        position: absolute;
+                        width: 355px;
+                        height: 50px;
+                        left: 20px;
+                        top: 2450px;
+                        
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 25px;
+                        line-height: 15px;
+                        
+                        color: #000000;
+                        
+                        }
+
+        .us{
+                        position: absolute;
+                      
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 25px;
+                        line-height: 35px;
+                        display: flex;
+                        align-items: center;
+                        color: #584C4C;
+                        width: 300px;
+                        height: 300px;
+                        background: #C7D7E5;
+                        border-radius: 60px;
+                        padding-left: 15px;
+                        padding-right: 15px;
+
+        }
+                #us1{/*before the footer*/
+                        left: 25px;
+                       top: 2500px;
+                        }
+            #us2    {
+                        /* Rectangle 44 */
+                        left: 25px;
+                        top: 2850px;
+                }
+
+             #us3   {/* Rectangle 45 */                
+                        left: 25px; 
+                        top: 3200px;  
+                        }
+        #ss{/* Student */
+
+                position: absolute;
+                left: 15px;
+                top: 3567px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 35px;
+                display: flex;
+                align-items: center;
+                text-align: center;                
+                color: #000000;
+                
+                
+
+                }
+                #sc{/* 2016,007 */
+
+                        position: absolute;
+                        width: 80px;
+                        height: 10px;
+                        padding: 20px;
+                        top: 3567px;
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 15px;
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                
+                        color: #000000;
+                        
+                        
+                        
+                        /* Rectangle 46 */
+                        
+                        box-sizing: border-box;
+                        
+                        position: absolute;
+                        width: 250px;
+                        height:5px;
+                        left: 130px;
+                        top: 3567px;
+                        
+                        border: 1px solid #000000;
+                        border-radius: 30px;
+                        }
+        #nu{/* satisfied and counting */
+
+                position: absolute;
+                width: 100px;
+                left: 210px;
+                top: 3565px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 15px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                height: 8px;
+                color: #000000;
+                
+                }
+        .footer{/* Rectangle 42 */
+
+                position: relative;
+                width: 413px;
+                height: 342px;
+                left: -10px;
+                top: 3800px;
+                background: #2666A1;
+                z-index: -1;
+
+}
+#cu{/* Contact us */
+
+
+        width: 100px;
+        height: 30px;
+        left: 20px;
+        top: 30px !important;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 15px;
+        /* identical to box height, or 67% */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        color: #FFFFFF;
+        
+        }
+#cu1{/* 07062466015 */
+
+        position: absolute;
+        left: 20px;
+        top: 100px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 15px;
+        /* identical to box height, or 136% */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        
+        }
+#cu2{/* lumina foundation street */
+
+        position: absolute;
+        left: 20px;
+        top: 150px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 15px;
+        /* identical to box height, or 136% */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #FFFFFF;
+        
+        }
+#cu3{/* Email address */
+
+        position: absolute;
+        left: 20px;
+        top: 200px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 15px;
+        /* identical to box height, or 136% */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        
+        }
+#aw{/* About website */
+
+        position: absolute;
+        width: 100px;
+        height: 30px;
+        left: 150px;
+        top: 30px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 15px;
+        /* identical to box height, or 67% */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #FFFFFF;
+        
+        }
+#aw1{/* Usage */
+
+        position: absolute;
+        width: 63px;
+        height: 30px;
+        left: 150px;
+        top: 100px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 15px;
+        /* identical to box height, or 136% */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #FFFFFF;
+        
+        }
+
+#aw2{/* privacy policy */
+
+        position: absolute;
+        width: 100px;
+        height: 30px;
+        left: 150px;
+        top: 150px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 15px;
+        /* identical to box height, or 136% */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #FFFFFF;
+        
+        }
+
+#aw3{/* cookies policy */
+
+        position: absolute;
+        width: 100px;
+        height: 30px;
+        left: 150px;
+        top: 200px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 15px;
+        /* identical to box height, or 136% */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #FFFFFF;
+        
+        }
+#ws{/* We are social */
+
+        position: absolute;
+        width: 125px;
+        height: 30px;
+        left: 270px;
+        top: 30px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 15px;
+        /* identical to box height, or 67% */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #FFFFFF;
+        
+        }
+
+#ws1{/* instagram */
+
+        position: absolute;
+        width: 50px;
+        height: 30px;
+        left: 270px;
+        top: 100px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 15px;
+        /* identical to box height, or 136% */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #FFFFFF;
+        
+        }
+
+#ws2{/* Facebook */
+
+        position: absolute;
+        width: 65px;
+        height: 30px;
+        left: 270px;
+        top: 150px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 15px;
+        /* identical to box height, or 136% */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #FFFFFF;
+        
+        }
+
+#ws3{/* twitter */
+
+        position: absolute;
+        width: 40px;
+        height: 30px;
+        left: 270px;
+        top: 200px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 15px;
+        /* identical to box height, or 136% */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #FFFFFF;
+        
+        }
